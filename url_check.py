@@ -2,7 +2,6 @@ import sys
 
 from requests_html import HTMLSession
 
-
 def url_check(url, logger = None):
 
     session = HTMLSession()
